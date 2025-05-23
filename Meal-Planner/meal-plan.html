@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meal Plan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url('https://images.unsplash.com/photo-1606787366850-de6330128bfc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZvb2QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .container {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #FFFFFF;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px #FFFFFF;
+    }
+
+    .meal-plan {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .meal-card {
+      border-radius: 12px;
+      padding: 20px;
+      width: calc(33.33% - 20px);
+      background-color: rgba(0, 0, 0, 0.9);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      color: #fff;
+      text-align: left;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .meal-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    @media (max-width: 768px) {
+      .meal-card {
+        width: calc(50% - 20px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .meal-card {
+        width: calc(100% - 20px);
+      }
+    }
+
+    ul {
+      padding-left: 20px;
+      text-align: left;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    #regenerate-btn {
+      margin-bottom: 30px;
+      background-color: #28a428;
+      color: #fff;
+      border: none;
+      padding: 12px 28px;
+      font-size: 1.1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    #regenerate-btn:hover {
+      background-color: #218c21;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Your 7-Day Meal Plan</h1>
+    <button id="regenerate-btn">🔄 Regenerate Meal Plan</button>
+    <div id="meal-plan" class="meal-plan"></div>
+  </div>
+
+  <div class="container">
+    <h1>🍽 Extra Meals</h1>
+    <div id="extras-container" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-top: 40px;">
+      <div class="meal-card" style="flex: 1;">
+        <h3 style="text-align: center;">Extra Breakfasts 🍽 </h3>
+        <ul id="extra-breakfasts"></ul>
+      </div>
+      <div class="meal-card" style="flex: 1;">
+        <h3 style="text-align: center;">Extra Lunches 🥗 </h3>
+        <ul id="extra-lunches"></ul>
+      </div>
+      <div class="meal-card" style="flex: 1;">
+        <h3 style="text-align: center;">Extra Dinners 🍛 </h3>
+        <ul id="extra-dinners"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function renderMealPlan() {
+      const mealPlanRaw = JSON.parse(localStorage.getItem('mealPlan'));
+
+      if (!mealPlanRaw) {
+        alert('No meal plan found!');
+        return;
+      }
+
+      // The last element is the extras object
+      const extrasObj = mealPlanRaw[mealPlanRaw.length - 1].extras;
+      const mealPlan = mealPlanRaw.slice(0, mealPlanRaw.length - 1);
+
+      const container = document.getElementById('meal-plan');
+      container.innerHTML = '';
+      mealPlan.forEach(day => {
+        const card = document.createElement('div');
+        card.className = 'meal-card';
+        card.innerHTML = `
+          <h3 style="text-align: center;">${day.day}</h3>
+          <p><strong>🍽 Breakfast:</strong> ${day.breakfast}</p>
+          <p><strong>🥗 Lunch:</strong> ${day.lunch}</p>
+          <p><strong>🍪 Snack:</strong> ${day.snack}</p>
+          <p><strong>🍛 Dinner:</strong> ${day.dinner}</p>
+        `;
+        container.appendChild(card);
+      });
+
+      if (extrasObj) {
+        const fillExtras = (id, items) => {
+          const list = document.getElementById(id);
+          list.innerHTML = '';
+          items.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = item;
+            list.appendChild(li);
+          });
+        };
+
+        fillExtras('extra-breakfasts', extrasObj.breakfasts || []);
+        fillExtras('extra-lunches', extrasObj.lunches || []);
+        fillExtras('extra-dinners', extrasObj.dinners || []);
+      }
+    }
+
+    window.onload = renderMealPlan;
+
+    document.getElementById('regenerate-btn').onclick = async function() {
+      const response = await fetch('http://localhost:5000/generate-plan');
+      const data = await response.json();
+
+      if (data.error) {
+        alert(data.error);
+        return;
+      }
+
+      localStorage.setItem('mealPlan', JSON.stringify(data));
+      renderMealPlan();
+    };
+  </script>
+</body>
+</html>

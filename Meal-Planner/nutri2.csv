@@ -1,0 +1,163 @@
+Meal,Calories (kcal),Protein (g),Carbs (g),Fat (g),Sugar (g),Tags,Type,Score
+Vegetable Upma,380,9,60,10,3,"high_fiber, low_sodium, easy_to_digest",Breakfast,16
+Oats,350,10,55,8,3,"high_fiber, heart_healthy, gut_friendly",Breakfast,18
+Idli with Sambar,390,10,65,7,3,"fermented, probiotic, light_meal",Breakfast,14
+Dosa with Chutney,400,11,70,9,4,"fermented, easy_to_digest, balanced",Breakfast,15
+Vegetable Sandwich,430,13,50,12,5,"fiber_rich, easy_to_digest, plant_protein",Breakfast,17
+Sprouts Salad,280,14,20,10,2,"plant_protein, anti_inflammatory, raw",Breakfast,15
+Ragi Dosa with Chutney,370,11,65,8,3,"iron_rich, high_fiber, fermented",Breakfast,16
+Boiled Egg,310,13,1,21,0,"high_protein, low_sugar, anti_inflammatory",Breakfast,14
+Omelette,330,14,2,24,1,"high_protein, nutrient_dense, low_sugar",Breakfast,13
+Egg Sandwich,440,15,40,18,4,"high_protein, energy_boost, balanced_meal",Breakfast,13
+Ragi Roti,350,10,60,7,3,"gluten_free, high_fiber, iron_rich",Breakfast,15
+Poha with Peanuts,400,8,50,10,4,"light_meal, high_fiber, good_fats",Breakfast,14
+Scrambled/Fried Egg,320,14,3,22,0,"high_protein, low_carb, anti_inflammatory",Breakfast,14
+Cereals with Milk,360,8,60,8,6,"calcium_rich, quick_meal, energy_boost",Breakfast,12
+Moong Dal Khichdi,320,14,48,6,2,"high_fiber, low_fat, easy_to_digest",Other,16
+Palak Paneer + 1 Roti,400,20,30,15,4,"high_protein, iron_rich, diabetic_friendly",Other,13
+Tofu Bhurji + Brown Rice,430,22,40,12,3,"vegan, protein_rich, low_sodium",Other,16
+Lauki Chana Dal Curry,310,16,36,8,2,"anti_inflammatory, diabetic_friendly",Other,16
+Bhindi Masala + Phulka,360,8,45,10,3,"fiber_rich, easy_to_digest",Other,15
+Quinoa Pulao,370,13,42,9,1,"gluten_free, high_fiber",Other,17
+Mixed Vegetable Curry + Rice,420,11,55,11,5,"antioxidant_rich, cancer_support",Other,15
+Rajma (Kidney Beans) + Brown Rice,460,18,50,12,3,"protein_rich, iron_rich, fiber_rich",Other,15
+Oats Vegetable Cheela,330,10,40,9,2,"diabetic_friendly, gluten_free",Other,14
+Methi Thepla + Low-fat Curd,380,12,38,10,2,"iron_rich, probiotic_friendly",Other,15
+Paneer Bhurji + 2 Phulkas,450,23,35,17,3,"high_protein, low_sugar",Other,14
+Vegetable Dalia,350,12,50,6,2,"high_fiber, easy_to_digest",Other,16
+Ragi Porridge,280,8,35,5,3,"calcium_rich, diabetic_friendly",Other,9
+Besan Chilla + Mint Chutney,310,13,30,7,1,"gluten_free, high_protein, low_fat",Other,14
+Steamed Veg Momos + Soup,370,10,40,10,3,"low_fat, light_meal, nutrient_dense",Other,15
+Chicken Stew + Red Rice,480,28,36,15,1,"high_protein, gut_soothing, anti-inflammatory",Other,13
+Baingan Bharta + Jowar Roti,390,10,38,12,2,"fiber_rich, low_sodium, antioxidant_rich",Other,16
+Drumstick Leaves Curry + Rice,400,15,45,10,3,"iron_rich, anti_cancer, detoxifying",Other,16
+Curd Rice with Pomegranate,370,9,46,8,4,"probiotic_rich, gut_friendly, easy_to_digest",Other,15
+Sattu Paratha + Curd,430,16,40,12,2,"high_protein, regional_food, digestive_friendly",Other,16
+Hummus + Multigrain Roti,400,14,38,13,2,"iron_rich, plant_protein, healthy_fats",Other,16
+Egg Bhurji + Toast (Whole Wheat),390,20,30,12,2,"high_protein, B12_rich,",Breakfast,16
+Matar Paneer + Jeera Rice,470,16,50,14,3,"high_calcium, vegetarian_protein, ",Other,14
+Oats Upma,320,9,42,8,2,"high_fiber, cholesterol_friendly, satiety",Breakfast,14
+Palak Paneer + Brown Rice,460,18,40,14,3,"calcium_rich, antioxidant_boost, leafy_greens",Other,14
+Vegetable Thepla + Curd,400,10,38,12,2,"iron_rich, fiber_rich, digestive",Other,15
+Millet Pongal + Coconut Chutney,390,11,44,10,2,"diabetic_friendly, gluten_free, light_breakfast",Other,15
+Avial + Red Rice,450,10,42,15,3,"veg_based, healthy_fats",Other,13
+Tofu Bhurji + Chapati,410,20,32,13,2,"plant_protein, high_protein, vegan_friendly",Other,16
+Lauki Kofta (Baked) + Rice,400,9,42,10,3,"low_fat, fiber_rich, light_on_stomach",Other,14
+Mixed Vegetable Handvo,380,12,34,12,2,"fermented, gut_friendly",Other,16
+Paneer Tikka + Multigrain Roti,470,20,35,15,2,"grilled, high_protein",Other,13
+Methi Thepla + Pickled Carrot,370,8,36,10,2,"iron_rich, fermented_side",Other,14
+Egg Curry + Rice,480,22,40,15,2,"protein_rich, healthy_fats",Other,13
+Cabbage Paratha + Mint Chutney,390,9,36,12,2,"detox, low_glycemic, fibrous",Other,14
+Kichadi with Carrot & Beans,350,10,42,8,2,"low_spice, easy_digestion, veggie_dense",Other,15
+Grilled Chicken + Quinoa Salad,480,30,28,18,2,"lean_protein, anti-inflammatory, low_glycemic",Other,13
+Fish Curry (Pomfret) + Brown Rice,450,25,40,14,2,"omega_3_rich, anti_cancer_properties, gut_friendly",Other,16
+Boiled Egg Whites + Oats,330,22,30,8,2,"low_fat, breakfast_boost,",Breakfast,15
+Chicken Stew + Appam,490,26,36,18,3,"coconut_milk_base, energy_boosting",Breakfast,13
+Prawn Pulao,470,24,40,15,2,"high_zinc, quick_digestion",Other,13
+Chicken Khichdi,440,22,38,12,2,"gut_friendly, one_pot_meal, high_protein",Other,17
+Egg Bhurji + Multigrain Toast,390,20,28,12,2,"quick_meal, brain_boosting, protein_rich",Other,16
+Grilled Fish + Steamed Veggies,420,28,20,16,1,"omega_3, antioxidant_support, low_inflammatory",Other,14
+Chicken Tikka Wrap (Whole Wheat),460,27,34,15,2,"on_the_go, filling",Other,13
+Egg Curry + Quinoa,450,22,34,14,2,"iron_rich, wholesome_meal",Other,15
+Tuna Salad + Chickpeas,430,25,30,14,2,"cold_meal, omega_3, digestive_friendly",Breakfast,15
+Chicken Soup + Garlic Toast,400,20,30,12,2,"immunity_boosting, warm_meal, recovery_friendly",Breakfast,16
+Upma + Boiled Veggies,340,10,38,10,2,"breakfast, light_meal, low_spice",Other,14
+Pongal (Ven Pongal),370,11,36,14,2,"protein_rich, iron_rich",Other,14
+Lemon Rice + Curd,420,10,45,14,2,cooling_effect,Other,14
+Sambar Rice + Beetroot Poriyal,430,14,40,12,2,"antioxidant, fiber_rich",Other,16
+Rasam + Brown Rice + Beans Thoran,410,13,38,12,2,"anti_inflammatory, high_vitamin_C, light_dinner",Other,17
+Tomato Rice + Egg,460,17,42,14,2,"lunch, protein_carb_combo, energy_boost",Other,14
+Curd Rice + Pomegranate,390,11,35,12,4,"probiotic, gut_healing, dinner_special",Other,14
+Pesarattu + Ginger Chutney,380,14,34,10,2,"green_gram_protein, breakfast",Other,16
+Chicken Chettinad + Ragi Ball,490,26,32,16,2,"high_protein, iron_rich",Other,13
+Idiyappam + Vegetable Stew,400,12,36,14,2,"light_dinner, low_spice, easy_digest",Breakfast,14
+Rava Idli + Coconut Chutney,330,10,38,10,2,"semolina_based, steamed, soft_food",Breakfast,14
+Thatte Idli + Sagu,340,11,36,10,2,potassium_rich,Breakfast,14
+Chow Chow Bath (Khara + Kesari Bath),420,8,45,14,6,energy_boost,Other,11
+Akki Roti + Tomato Chutney,390,10,42,14,2,"gluten_free, fiber_rich",Breakfast,14
+Bisi Bele Bath + Raita,460,13,44,16,3,"one_pot_meal, lentil_rich, vitamin_A",Other,13
+Ragi Mudde + Bassaru (Greens Rasam),430,14,32,12,2,"diabetic_friendly, calcium_rich",Other,16
+Kesari Bath (small portion) + Milk,320,9,40,12,10,"energy_rich, antioxidant",Other,11
+Avarekalu Saaru + Red Rice,410,15,38,12,2,"rich_in_fiber, plant_protein",Other,17
+Vegetable Pulao + Curd,430,10,45,14,2,"balanced_nutrients, mild_spices",Other,14
+Neer Dosa + Mixed Veg Kurma,400,11,36,14,2,"soft_food, gut_friendly",Breakfast,15
+Benne Dosa + Sambar,460,12,44,18,2,"energy_boost, taste_rich",Breakfast,12
+Ragi Idli + Chutney,340,12,34,10,2,"diabetic_friendly, protein_rich, soft_texture",Breakfast,14
+Scrambled Eggs on Whole Wheat Toast,370,18,30,18,3,"protein_rich, brain_health, easy_digest",Other,14
+Vegetable Pasta with Olive Oil,480,12,55,18,4,"gut_friendly, omega_3_rich, energy_sustaining",Other,12
+Grilled Salmon + Steamed Broccoli,460,32,12,28,1,"omega_3_rich, anti_cancer, heart_healthy",Other,14
+Oats Pancakes + Fruit Compote,350,10,40,12,8,"fiber_rich, antioxidant_boost, iron_rich",Breakfast,13
+Hummus + Whole Wheat Pita + Veggies,390,14,40,14,2,"plant_protein, good_fats, iron_rich",Other,16
+Lentil Soup (Middle Eastern style),320,16,28,8,1,"immunity_boost, protein_rich, digestion_support",Other,15
+Grilled Paneer Wrap + Greens,430,21,32,18,2,"protein_rich, calcium_boost, vitamin_B12_support",Other,14
+Greek Yogurt Bowl + Nuts + Berries,360,15,28,14,10,"probiotic_rich, antioxidant_boost, gut_health",Snacks,13
+Avocado Toast + Boiled Egg,400,14,25,22,2,"good_fats, brain_support, fiber_rich",Breakfast,14
+Chickpea Salad + Olive Dressing,350,13,30,10,3,"plant_protein, gut_friendly, low_glycemic",Breakfast,18
+Peanut Butter Banana Oats,380,14,45,16,12,"energy_boost, iron_rich, easy_digest",Breakfast,12
+Veggie Cheese Sandwich (Multigrain),410,16,35,18,4,"antioxidant_boost, heart_healthy, calcium_rich",Breakfast,14
+Buddha Bowl (Quinoa + Chickpeas),450,20,40,18,3,"plant_protein, anti_inflammatory, fiber_rich",Other,16
+Sushi (Veg or Salmon) + Edamame,430,22,36,12,4,"omega_3_rich, anti_cancer, low_fat",Other,15
+Thai Basil Fried Rice (Veg/Tofu),470,15,50,18,5,"antioxidant_rich, B_vitamin_rich, gut_friendly",Other,14
+"English Breakfast (eggs, toast, beans)",500,24,40,22,3,"balanced_meal, energy_boost, protein_rich",Other,13
+Creamy Mushroom Risotto (Olive oil),440,10,45,18,3,"selenium_rich, vitamin_D, gut_health",Other,13
+"Chicken Caesar Wrap (Lettuce, grilled chicken, low-fat sauce)",460,28,30,18,2,"lean_protein, low_glycemic, immunity_boost",Other,13
+Falafel Wrap + Yogurt Dip,430,18,36,14,3,"plant_protein, probiotic_rich, anti_inflammatory",Other,17
+"Smoothie Bowl (berries, yogurt, nuts)",350,14,32,12,10,"antioxidant_boost, probiotic_rich, skin_health",Snacks,14
+Porridge with Chia Seeds & Almonds,300,10,45,12,4,"high_fiber, brain_health, heart_healthy",Other,15
+Shakshuka (Eggs in Spicy Tomato),380,18,25,22,6,"protein_rich, vitamin_C, immune_boost",Other,12
+Banana Oats Pancakes,350,12,50,14,14,"high_fiber, low_sugar, gut_health",Breakfast,13
+Mango Smoothie with Almond Milk,280,8,45,10,28,"antioxidants, vitamin_C, immune_boost",Snacks,9
+Chia Pudding with Almond Butter,340,12,32,20,5,"omega_3_rich, brain_health, heart_healthy",Snacks,12
+Thai Green Curry with Tofu,420,18,35,20,5,"plant_protein, vitamin_B, anti-inflammatory",Other,14
+Grilled Salmon & Veggie Wrap,500,32,45,22,4,"omega_3_rich, heart_healthy, protein_rich",Other,13
+Chicken Teriyaki with Brown Rice,470,28,45,18,5,"lean_protein, energy_sustaining, low_cholesterol",Other,12
+Grilled Shrimp with Garlic & Lemon,360,30,12,20,2,"protein_rich, low_calorie, anti-inflammatory",Other,14
+Vegetable Stir-fry with Tofu,380,20,35,18,6,"plant_protein, high_fiber, antioxidant_boost",Other,14
+Baked Cod with Steamed Broccoli,400,35,20,22,3,"lean_protein, omega_3_rich, low_sodium",Other,14
+Roast Chicken with Sweet Potato,450,30,38,18,6,"protein_rich, vitamin_A, anti_inflammatory",Other,13
+Sweet Corn Chaat,150,4,30,2,4,"High-fiber, antioxidant-rich",Snacks,16
+Chana Chaat,180,8,25,3,3,"High-protein, iron-rich",Snacks,18
+Cucumber + Hummus,130,4,8,7,2,"Cooling, healthy fat, fiber",Snacks,15
+Banana Almond Milkshake,200,6,28,7,18,"Energy boost, potassium-rich",Snacks,15
+Chocolate Milkshake,250,6,30,9,22,"Comfort food, mood-lifting",Snacks,13
+Vegetable Cutlet,180,4,20,8,2,"Iron-rich, fiber-rich",Snacks,14
+Vegetable Samosa,250,5,26,15,2,"Popular, but oily",Snacks,11
+Greek Yogurt,100,10,6,4,5,"High Protein, Low Sugar, Probiotic",Snacks,18
+Apple with Peanut Butter,180,4,22,9,14,"Fiber-Rich, Natural Sugar, Healthy Fat",Snacks,16
+Almonds (28g),160,6,6,14,1,"Heart-Healthy, High Fat, Low Carb",Snacks,17
+Protein Bar/ Energy Bar,200,20,18,7,6,"High Protein, Processed, Moderate Sugar",Snacks,14
+"Popcorn (Air-popped, 3 cups)",90,3,18,1,0,"Whole Grain, Low Calorie, Low Fat",Snacks,16
+"Dark Chocolate (70%, 30g)",170,2,13,12,7,"Antioxidant-Rich, High Fat",Snacks,14
+Banana,105,1,27,0,14,"High Potassium, Natural Sugar",Snacks,14
+Rice Cakes with Nut Butter,190,5,20,9,5,"Light, Balanced Snack",Snacks,15
+Granola Bar (oats/honey),180,3,24,6,12,"High Sugar, Moderate Energy",Snacks,12
+Roasted Chana,110,6,18,2,1,"High Protein, Crunchy, Low Sugar",Snacks,17
+Dhokla (2 pieces),160,6,20,5,2,"Fermented, Light, High Carb, Steamed",Snacks,16
+Masala Oats,180,6,25,6,3,"Fiber-Rich, Spiced, Balanced",Snacks,16
+Bhel Puri,150,3,25,4,4,"Low Cal, Spicy-Sweet, Street Food",Snacks,13
+Vegetable Pakora (3 pcs),220,5,20,14,1,"Deep-Fried, Crunchy, Moderate Protein",Snacks,11
+Rajma Chaat,180,8,20,4,2,"High Protein, Fiber-Rich, Spicy",Snacks,17
+Makhana Roasted,100,4,14,3,0,"Low Cal, Gluten-Free, Antioxidant-Rich",Snacks,17
+Ragi Cookies (2 pcs),130,3,18,6,5,"Whole Grain, Iron-Rich, Mildly Sweet",Snacks,14
+Coconut Ladoo (1 pc),140,2,15,8,10,"High Sugar, Festive Sweet",Snacks,9
+Chikki,150,5,18,7,12,"Protein + Sugar, Energy-Dense, Natural Sweetener",Snacks,13
+Sweet biscuits,130,2,20,4,7,"Processed, Refined Sugar, Low Satiety",Snacks,11
+Digestive biscuits,140,2,18,6,5,"Slightly Fibrous, Mid-Cal",Snacks,13
+Salted crackers,120,2,17,5,1,"Salty, Refined, Low Sugar",Snacks,13
+Butter cookies,150,1.5,18,9,8,"Buttery, Rich, High Fat",Snacks,9
+Cream sandwich biscuits,160,1,22,7,12,"High Sugar, Ultra-Processed",Snacks,8
+Chocolate bar,110,1,12,6,10,"Sugary, Melts Fast, High GI",Snacks,7
+Mini cake slices,140,1,20,6,12,"Soft, Spongy, High Sugar",Snacks,8
+Rusks,120,3,18,3,4,"Dry, Crunchy, Good With Tea",Snacks,13
+Potato chips,160,2,15,11,0,"Salty, Fried, Addictive",Snacks,9
+Banana chips,180,1,20,12,4,"Fried, Crunchy, Sweetish",Snacks,9
+Roasted chickpeas,120,6,18,2,1,"Crunchy, High Protein, Low Fat",Snacks,17
+Yogurt cup with fruit,90,4,12,2,8,"Cool, Creamy, Protein + Sugar",Snacks,14
+Mini sandwich,180,4,20,9,2,"Easy, Tasty, High Fat",Snacks,12
+Instant noodles,190,3,26,7,1,"Processed, Quick, Not Nutritious",Snacks,8
+Muesli with milk,150,5,22,4,6,"Balanced, Slightly Sweet",Snacks,15
+Mixture/namkeen,170,3,15,10,1,"Fried, Crunchy, Salty",Snacks,10
+Fruit smoothie,100,3,18,2,10,"Fresh, Sugary, Nutrient-Rich",Snacks,14
+Boiled corn with masala,100,3,20,2,3,"Whole Food, Hot, Flavorful",Snacks,15
+Chocolate muffin,220,2,30,10,18,"Sweet, Soft, Indulgent",Snacks,7
+Bread pakora,200,4,20,12,2,"Deep Fried, Spicy, Hearty",Snacks,10
